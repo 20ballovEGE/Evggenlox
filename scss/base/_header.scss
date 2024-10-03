@@ -1,0 +1,66 @@
+.head-text{
+    font-family:$GilRe;
+    font-size: 1.2rem;
+}
+.sj{
+    font-family: $GilMe;
+    font-size: 1.5rem;
+}
+
+.head-textcol{
+    font-family: $GilBo;
+    color: #BF9C24 !important; 
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.head-main{
+    height: 110vh;
+    background-image: url(images/mainimg.png);
+    background-position: center;
+    background-size: cover;
+}
+.head-maintext{
+    font-family: $Rubik;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+.head-button {
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    color: #BF9C24;
+    border:3px solid white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-family: $GilExB;
+}
+
+.nav-item a{
+    width: max-content;
+}
+
+.blur{
+    backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 991px) {
+    .head-maintext{
+        font-size: 3rem;
+    }
+    .head-main{
+        height: 80vh;
+    }
+    .head-text{
+        font-size: 1rem;
+    }
+    .head-button {
+        width: 15rem;
+        height: 4rem;
+        background-color: transparent;
+        color: #BF9C24;
+        border:3px solid white;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-family: $GilBo;
+    }
+}

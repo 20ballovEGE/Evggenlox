@@ -1,0 +1,101 @@
+.main-slider{
+    background-image: url(images/Reviews.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item img {
+    border: 10px solid transparent;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.carousel-item.active img {
+    border-color: #BF9C24;
+}
+.carousel-control-prev{
+    opacity: 1;
+    transform: translateX(-6rem) ;
+}
+.carousel-control-next{
+    opacity: 1;
+    transform: translateX(6rem)
+}
+
+.comment-slider{
+    padding-left: 21vw;
+    width: 70vw;
+    height: 500px;
+}
+
+.client-slider{
+    font-family: $GilSeB;
+    font-size: 1.5rem;
+    color: #2F3438;
+}
+
+.comment-p{
+    font-family: $GilRe;
+    font-size: 1.5rem;
+    color: #40423B;
+}
+
+.hair-slider{
+    font-family: $GilMe;
+    font-size: 2rem;
+}
+
+.Testim-slider{
+    color: #2F3438;
+    font-size: 4rem;
+    font-family: $Rubik;
+}
+
+.client-slider-pre{
+    opacity: 1;
+    height: 1px;
+    width: 50px;
+    border: 2.7px solid #bf9b24;
+    border-radius: 24px;
+}
+
+.carousel_main_img{
+    width: 30rem;
+}
+
+@media screen and (max-width: 991px) {
+    .Testim-slider{
+        font-size: 1.5rem;
+        
+    }
+    .comment-p{
+        font-size: 1rem;
+    }
+    .hair-slider{
+        position: relative;
+        bottom: 0;
+        top: 0;
+        font-size: 1rem;
+    }
+    .carousel_main_img{
+        width: 50vw;
+    }
+    .Testim-slider{
+        font-size: 3rem;
+    }
+    .comment-slider{
+        padding:0;
+        width: 90vw;
+        height: 500px;
+    }
+    .carousel-control-prev{
+        transform: translateX(-3rem) ;
+    }
+    .carousel-control-next{
+        transform: translateX(3rem)
+    }
+}
+.offcanvas-backdrop{
+    display:none
+}

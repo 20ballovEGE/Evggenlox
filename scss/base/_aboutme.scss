@@ -1,0 +1,29 @@
+.about_me_grid {
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about_me_p{
+    width: 25rem;
+    color: #171717;
+    font-family: $GilRe;
+    font-size: 1rem;
+}
+
+.about_me_h1{
+    font-family: $Rubik;
+    color: #2F3438;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+    .about_me_grid {
+        grid-template-rows:1fr max-content ;
+        grid-template-columns:1fr;
+    }
+    .about_me_p{
+        width: 20rem;
+        font-size: 1rem;
+    }
+}
